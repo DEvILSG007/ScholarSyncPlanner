@@ -8,5 +8,9 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     sourcemap: false
+  },
+  define: {
+    // Prevents "process is not defined" error in browser
+    'process.env': {}
   }
 })
