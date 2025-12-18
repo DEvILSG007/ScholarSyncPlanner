@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "scholarsync-planner-4d39d",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
